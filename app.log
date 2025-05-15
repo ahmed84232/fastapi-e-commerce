@@ -1,0 +1,20 @@
+INFO: 2025-05-14 11:48:14 [main]: 
+-----FastAPI Request-----
+GET http://localhost:8000/owner/
+{
+  "content-type": "application/json",
+  "user-agent": "PostmanRuntime/7.43.4",
+  "accept": "*/*",
+  "postman-token": "90f146c4-74a7-4151-a5f2-78581390206f",
+  "host": "localhost:8000",
+  "accept-encoding": "gzip, deflate, br",
+  "connection": "keep-alive",
+  "content-length": "45"
+}
+-----Request Body-----
+{
+  "Name": "<NAME>",
+  "Age": 0
+}
+INFO: 2025-05-14 11:48:14 [OwnerAPI]: Showing all the owners data
+INFO: 2025-05-14 11:48:14 [main]: Response code: 200
