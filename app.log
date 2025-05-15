@@ -1,20 +1,455 @@
-INFO: 2025-05-14 11:48:14 [main]: 
+INFO: 2025-05-15 17:31:26 [OwnerAPI]: Showing all the owners data
+INFO: 2025-05-15 17:31:51 [OwnerAPI]: Showing all the owners data
+DEBUG: 2025-05-15 17:45:58 [MiddleWare]: -----FastAPI Request-----
+GET http://localhost:8000/owner/
+
+user-agent:PostmanRuntime/7.43.4
+accept:*/*
+postman-token:a0716201-8fd8-42f8-bcad-9d50597ba7cf
+host:localhost:8000
+accept-encoding:gzip, deflate, br
+connection:keep-alive
+
+
+INFO: 2025-05-15 17:45:58 [OwnerAPI]: Showing all the owners data
+DEBUG: 2025-05-15 17:45:58 [MiddleWare]: -----FastAPI Response-----
+200
+
+content-length:386
+content-type:application/json
+
+"[{\"owner_name\":\"Mohamed Mohy\",\"owner_id\":2,\"age\":27},{\"owner_name\":\"Ahmed Ahmed\",\"owner_id\":3,\"age\":25},{\"owner_name\":\"Omar Ramzy\",\"owner_id\":4,\"age\":28},{\"owner_name\":\"Ahmed Yasser\",\"owner_id\":1,\"age\":24},{\"owner_name\":\"LOLO\",\"owner_id\":6,\"age\":700},{\"owner_name\":\"LOLO\",\"owner_id\":7,\"age\":700},{\"owner_name\":\"LOLO\",\"owner_id\":8,\"age\":700},{\"owner_name\":\"LOLO\",\"owner_id\":9,\"age\":700}]"
+DEBUG: 2025-05-15 17:46:06 [MiddleWare]: -----FastAPI Request-----
+GET http://localhost:8000/company/
+
+user-agent:PostmanRuntime/7.43.4
+accept:*/*
+postman-token:21d951c2-8b41-4dff-b655-75b52e76312e
+host:localhost:8000
+accept-encoding:gzip, deflate, br
+connection:keep-alive
+
+
+INFO: 2025-05-15 17:46:06 [CompanyAPI]: Showing companies
+DEBUG: 2025-05-15 17:46:06 [MiddleWare]: -----FastAPI Response-----
+200
+
+content-length:331
+content-type:application/json
+
+"[{\"company_id\":1,\"owner_id\":1,\"company_employees\":100,\"company_name\":\"Teleperformance\"},{\"company_id\":4,\"owner_id\":3,\"company_employees\":7000,\"company_name\":\"Vodafone\"},{\"company_id\":5,\"owner_id\":4,\"company_employees\":1500,\"company_name\":\"Icons\"},{\"company_id\":3,\"owner_id\":2,\"company_employees\":200,\"company_name\":\"Data Analyst\"}]"
+DEBUG: 2025-05-15 17:48:23 [MiddleWare]: -----FastAPI Request-----
+GET http://localhost:8000/company/
+
+user-agent:PostmanRuntime/7.43.4
+accept:*/*
+postman-token:55a31207-2ba0-4811-b8c1-84b31a763396
+host:localhost:8000
+accept-encoding:gzip, deflate, br
+connection:keep-alive
+
+
+INFO: 2025-05-15 17:48:23 [CompanyAPI]: Showing companies
+DEBUG: 2025-05-15 17:48:23 [MiddleWare]: -----FastAPI Response-----
+200
+
+content-length:331
+content-type:application/json
+
+"[{\"company_id\":1,\"owner_id\":1,\"company_employees\":100,\"company_name\":\"Teleperformance\"},{\"company_id\":4,\"owner_id\":3,\"company_employees\":7000,\"company_name\":\"Vodafone\"},{\"company_id\":5,\"owner_id\":4,\"company_employees\":1500,\"company_name\":\"Icons\"},{\"company_id\":3,\"owner_id\":2,\"company_employees\":200,\"company_name\":\"Data Analyst\"}]"
+DEBUG: 2025-05-15 17:49:28 [MiddleWare]: -----FastAPI Request-----
+GET http://localhost:8000/company/
+
+user-agent:PostmanRuntime/7.43.4
+accept:*/*
+postman-token:ec0b44ae-1603-45bd-81c9-1bfcc9447b47
+host:localhost:8000
+accept-encoding:gzip, deflate, br
+connection:keep-alive
+
+
+INFO: 2025-05-15 17:49:28 [CompanyAPI]: Showing companies
+DEBUG: 2025-05-15 17:50:57 [MiddleWare]: -----FastAPI Request-----
+GET http://localhost:8000/company/
+
+user-agent:PostmanRuntime/7.43.4
+accept:*/*
+postman-token:519e7e28-b4e2-4180-a704-72a0ce5d7875
+host:localhost:8000
+accept-encoding:gzip, deflate, br
+connection:keep-alive
+
+
+INFO: 2025-05-15 17:50:57 [CompanyAPI]: Showing companies
+WARNING: 2025-05-15 17:50:57 [MiddleWare]: Could not decode body: JSONDecoder.__init__() got an unexpected keyword argument 'indent'
+DEBUG: 2025-05-15 17:50:57 [MiddleWare]: -----FastAPI Response-----
+200
+
+content-length:331
+content-type:application/json
+
+
+DEBUG: 2025-05-15 17:52:07 [MiddleWare]: -----FastAPI Request-----
+GET http://localhost:8000/company/
+
+user-agent:PostmanRuntime/7.43.4
+accept:*/*
+postman-token:35021803-b7aa-4111-9446-6f420c6eb4a8
+host:localhost:8000
+accept-encoding:gzip, deflate, br
+connection:keep-alive
+
+
+INFO: 2025-05-15 17:52:07 [CompanyAPI]: Showing companies
+DEBUG: 2025-05-15 17:52:07 [MiddleWare]: -----FastAPI Response-----
+200
+
+content-length:331
+content-type:application/json
+
+[
+    {
+        "company_id": 1,
+        "owner_id": 1,
+        "company_name": "Teleperformance",
+        "company_employees": 100
+    },
+    {
+        "company_id": 4,
+        "owner_id": 3,
+        "company_name": "Vodafone",
+        "company_employees": 7000
+    },
+    {
+        "company_id": 5,
+        "owner_id": 4,
+        "company_name": "Icons",
+        "company_employees": 1500
+    },
+    {
+        "company_id": 3,
+        "owner_id": 2,
+        "company_name": "Data Analyst",
+        "company_employees": 200
+    }
+]
+DEBUG: 2025-05-15 17:52:30 [MiddleWare]: 
+-----FastAPI Request-----
+GET http://localhost:8000/company/
+
+user-agent:PostmanRuntime/7.43.4
+accept:*/*
+postman-token:422fae88-d8d1-42f9-8913-2926ba011823
+host:localhost:8000
+accept-encoding:gzip, deflate, br
+connection:keep-alive
+
+
+INFO: 2025-05-15 17:52:30 [CompanyAPI]: Showing companies
+DEBUG: 2025-05-15 17:52:30 [MiddleWare]: 
+-----FastAPI Response-----
+200
+
+content-length:331
+content-type:application/json
+
+[
+    {
+        "owner_id": 1,
+        "company_id": 1,
+        "company_employees": 100,
+        "company_name": "Teleperformance"
+    },
+    {
+        "owner_id": 3,
+        "company_id": 4,
+        "company_employees": 7000,
+        "company_name": "Vodafone"
+    },
+    {
+        "owner_id": 4,
+        "company_id": 5,
+        "company_employees": 1500,
+        "company_name": "Icons"
+    },
+    {
+        "owner_id": 2,
+        "company_id": 3,
+        "company_employees": 200,
+        "company_name": "Data Analyst"
+    }
+]
+DEBUG: 2025-05-15 17:53:10 [MiddleWare]: 
+
+-----FastAPI Request-----
+GET http://localhost:8000/company/
+
+user-agent:PostmanRuntime/7.43.4
+accept:*/*
+postman-token:bae07da9-b4e7-480c-ac3f-e9c5d6872b07
+host:localhost:8000
+accept-encoding:gzip, deflate, br
+connection:keep-alive
+
+
+INFO: 2025-05-15 17:53:10 [CompanyAPI]: Showing companies
+DEBUG: 2025-05-15 17:53:10 [MiddleWare]: 
+
+-----FastAPI Response-----
+Status: 200
+
+content-length:331
+content-type:application/json
+
+[
+    {
+        "company_id": 1,
+        "owner_id": 1,
+        "company_name": "Teleperformance",
+        "company_employees": 100
+    },
+    {
+        "company_id": 4,
+        "owner_id": 3,
+        "company_name": "Vodafone",
+        "company_employees": 7000
+    },
+    {
+        "company_id": 5,
+        "owner_id": 4,
+        "company_name": "Icons",
+        "company_employees": 1500
+    },
+    {
+        "company_id": 3,
+        "owner_id": 2,
+        "company_name": "Data Analyst",
+        "company_employees": 200
+    }
+]
+DEBUG: 2025-05-15 17:55:23 [MiddleWare]: 
+
+-----FastAPI Request-----
+GET http://localhost:8000/company/
+
+user-agent:PostmanRuntime/7.43.4
+accept:*/*
+postman-token:a5dd185a-9e16-428b-8467-9d6f9e733a32
+host:localhost:8000
+accept-encoding:gzip, deflate, br
+connection:keep-alive
+
+
+INFO: 2025-05-15 17:55:23 [CompanyAPI]: Showing companies
+DEBUG: 2025-05-15 17:55:23 [MiddleWare]: 
+
+-----FastAPI Response-----
+Status: 200
+
+content-length:331
+content-type:application/json
+
+[
+    {
+        "company_id": 1,
+        "owner_id": 1,
+        "company_name": "Teleperformance",
+        "company_employees": 100
+    },
+    {
+        "company_id": 4,
+        "owner_id": 3,
+        "company_name": "Vodafone",
+        "company_employees": 7000
+    },
+    {
+        "company_id": 5,
+        "owner_id": 4,
+        "company_name": "Icons",
+        "company_employees": 1500
+    },
+    {
+        "company_id": 3,
+        "owner_id": 2,
+        "company_name": "Data Analyst",
+        "company_employees": 200
+    }
+]
+DEBUG: 2025-05-15 18:55:05 [MiddleWare]: 
+
+-----FastAPI Request-----
+DELETE http://localhost:8000/owner/9
+
+user-agent:PostmanRuntime/7.43.4
+accept:*/*
+postman-token:8e9dba8e-2780-4212-a1b2-e228a216c51b
+host:localhost:8000
+accept-encoding:gzip, deflate, br
+connection:keep-alive
+
+
+DEBUG: 2025-05-15 18:57:34 [MiddleWare]: 
+
+-----FastAPI Request-----
+DELETE http://localhost:8000/owner/9
+
+user-agent:PostmanRuntime/7.43.4
+accept:*/*
+postman-token:2f30a3dd-e388-43a4-a9e9-256075b85df3
+host:localhost:8000
+accept-encoding:gzip, deflate, br
+connection:keep-alive
+
+
+DEBUG: 2025-05-15 18:57:54 [MiddleWare]: 
+
+-----FastAPI Request-----
+DELETE http://localhost:8000/owner/9
+
+user-agent:PostmanRuntime/7.43.4
+accept:*/*
+postman-token:4d8e858c-5412-4326-b4ce-8d73816f06fb
+host:localhost:8000
+accept-encoding:gzip, deflate, br
+connection:keep-alive
+
+
+DEBUG: 2025-05-15 18:58:19 [MiddleWare]: 
+
+-----FastAPI Request-----
+DELETE http://localhost:8000/owner/9
+
+user-agent:PostmanRuntime/7.43.4
+accept:*/*
+postman-token:6b12437c-3ee0-43af-ac65-63a4f4f5bd39
+host:localhost:8000
+accept-encoding:gzip, deflate, br
+connection:keep-alive
+
+
+INFO: 2025-05-15 18:58:19 [OwnerAPI]: Owner 9 deleted
+DEBUG: 2025-05-15 18:58:19 [MiddleWare]: 
+
+-----FastAPI Response-----
+Status: 200
+
+content-length:45
+content-type:application/json
+
+{
+    "This owner ID got deleted from Database": 9
+}
+DEBUG: 2025-05-15 18:58:26 [MiddleWare]: 
+
 -----FastAPI Request-----
 GET http://localhost:8000/owner/
+
+user-agent:PostmanRuntime/7.43.4
+accept:*/*
+postman-token:33d1401b-f0cb-42e4-a96d-023a36b4e55a
+host:localhost:8000
+accept-encoding:gzip, deflate, br
+connection:keep-alive
+
+
+INFO: 2025-05-15 18:58:26 [OwnerAPI]: Showing all the owners data
+DEBUG: 2025-05-15 18:58:26 [MiddleWare]: 
+
+-----FastAPI Response-----
+Status: 200
+
+content-length:386
+content-type:application/json
+
+[
+    {
+        "owner_name": "Mohamed Mohy",
+        "owner_id": 2,
+        "age": 27
+    },
+    {
+        "owner_name": "Ahmed Ahmed",
+        "owner_id": 3,
+        "age": 25
+    },
+    {
+        "owner_name": "Omar Ramzy",
+        "owner_id": 4,
+        "age": 28
+    },
+    {
+        "owner_name": "Ahmed Yasser",
+        "owner_id": 1,
+        "age": 24
+    },
+    {
+        "owner_name": "LOLO",
+        "owner_id": 6,
+        "age": 700
+    },
+    {
+        "owner_name": "LOLO",
+        "owner_id": 7,
+        "age": 700
+    },
+    {
+        "owner_name": "LOLO",
+        "owner_id": 8,
+        "age": 700
+    },
+    {
+        "owner_name": "Test",
+        "owner_id": 10,
+        "age": 10
+    }
+]
+DEBUG: 2025-05-15 18:58:40 [MiddleWare]: 
+
+-----FastAPI Request-----
+DELETE http://localhost:8000/owner/7
+
+user-agent:PostmanRuntime/7.43.4
+accept:*/*
+postman-token:8cbe9de3-8a39-402e-aa0a-ea8f0e10fa88
+host:localhost:8000
+accept-encoding:gzip, deflate, br
+connection:keep-alive
+
+
+INFO: 2025-05-15 18:58:40 [OwnerAPI]: Owner 7 deleted
+DEBUG: 2025-05-15 18:58:40 [MiddleWare]: 
+
+-----FastAPI Response-----
+Status: 200
+
+content-length:45
+content-type:application/json
+
 {
-  "content-type": "application/json",
-  "user-agent": "PostmanRuntime/7.43.4",
-  "accept": "*/*",
-  "postman-token": "90f146c4-74a7-4151-a5f2-78581390206f",
-  "host": "localhost:8000",
-  "accept-encoding": "gzip, deflate, br",
-  "connection": "keep-alive",
-  "content-length": "45"
+    "This owner ID got deleted from Database": 7
 }
------Request Body-----
+DEBUG: 2025-05-15 18:58:42 [MiddleWare]: 
+
+-----FastAPI Request-----
+DELETE http://localhost:8000/owner/8
+
+user-agent:PostmanRuntime/7.43.4
+accept:*/*
+postman-token:a6b7f5c1-9615-4c1e-b2cd-a65fd29aa8f9
+host:localhost:8000
+accept-encoding:gzip, deflate, br
+connection:keep-alive
+
+
+INFO: 2025-05-15 18:58:42 [OwnerAPI]: Owner 8 deleted
+DEBUG: 2025-05-15 18:58:42 [MiddleWare]: 
+
+-----FastAPI Response-----
+Status: 200
+
+content-length:45
+content-type:application/json
+
 {
-  "Name": "<NAME>",
-  "Age": 0
+    "This owner ID got deleted from Database": 8
 }
-INFO: 2025-05-14 11:48:14 [OwnerAPI]: Showing all the owners data
-INFO: 2025-05-14 11:48:14 [main]: Response code: 200
