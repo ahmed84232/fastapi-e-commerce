@@ -1,5 +1,4 @@
 from sqlmodel import select
-from sqlmodel.ext.asyncio.session import AsyncSession
 from orm.Owner import Owner
 from fastapi import HTTPException
 

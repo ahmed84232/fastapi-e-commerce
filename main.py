@@ -2,7 +2,7 @@ import uvicorn
 from fastapi import FastAPI
 from starlette.middleware.base import BaseHTTPMiddleware
 
-from MiddleWare import LoggingMiddleware
+from helpers.MiddleWare import LoggingMiddleware
 from routers.CompanyAPI import router as company_router
 from routers.OwnerAPI import router as owner_router
 
